@@ -50,8 +50,13 @@
     border: none;
     padding: 12px 40px;
     cursor: pointer;
+    font-family: "Montserrat", sans-serif;
     font-size: 13px;
     font-weight: 500;
+}
+
+.banner-info-button:hover {
+    background-color: rgba(0, 113, 188, 1);
 }
 
 .widgets-nav {
@@ -76,4 +81,50 @@
     font-weight: 500;
     text-align: right;
     align-content: right;
+    cursor: pointer;
+}
+
+.widgets-view-all:hover {
+    color: rgb(0, 113, 188);
+}
+
+.widgets-row {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget {
+    align-items: center;
+    width: 16.6666%;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px -5px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.widget:hover {
+    filter: grayscale(0%);
+}
+
+.widget-image {
+    display: block;
+    max-width: 100%;
+}
+
+.widget-image:hover {
+    max-width: 95%;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.widget-image-title h3 {
+    text-align: center;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    font-weight: 600;
 }

@@ -49,6 +49,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
     font-weight: 500;
+    transition: all 0.2s ease-in-out;
 }
 
 .banner-info-button:hover {
@@ -78,6 +79,7 @@
     text-align: right;
     align-content: right;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
 .widgets-view-all:hover {
@@ -109,12 +111,12 @@
 }
 
 .img {
-    max-width: 100%;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
 }
 
 .img:hover {
-    max-width: 95%;
-    margin: auto;
+    transform: scale(.9);
 }
 
 .widget-image-title h3 {

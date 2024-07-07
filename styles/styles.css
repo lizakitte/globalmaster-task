@@ -3,12 +3,24 @@
     padding: 0 50px;
 }
 
+@media(max-width: 768px) {
+    .content {
+        padding: 0;
+    }
+}
+
 .banner-title {
     color: white;
     font-size: 48px;
     font-weight: 600;
     margin-top: 0;
     margin-bottom: 20px;
+}
+
+@media(max-width: 768px) {
+    .banner-title {
+        font-size: 36px;
+    }
 }
 
 .banner-text {
@@ -19,10 +31,15 @@
     margin-bottom: 20px;
 }
 
+@media(max-width: 768px) {
+    .banner-text {
+        font-size: 20px;
+    }
+}
+
 .banner-img {
     background-image: url(https://www.hydraulic-master.com/img/cms/category/banner.webp);
     background-size: cover;
-    display: flex;
     align-items: center;
     text-align: center;
     border-radius: 10px;
@@ -37,6 +54,12 @@
     text-align: center;
     border-radius: 10px;
     padding: 95px 0;
+}
+
+@media(max-width: 768px) {
+    .banner-content {
+        padding: 40px 4px;
+    }
 }
 
 .banner-info-button {
@@ -72,6 +95,12 @@
     margin: 0;
 }
 
+@media(max-width: 768px) {
+    .widgets-title {
+        font-size: 20px;
+    }
+}
+
 .widgets-view-all {
     font-size: 15px;
     color: rgb(148, 148, 148);
@@ -80,6 +109,12 @@
     align-content: right;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+}
+
+@media(max-width: 768px) {
+    .widgets-view-all {
+        font-size: 13px;
+    }
 }
 
 .widgets-view-all:hover {
@@ -125,4 +160,10 @@
     font-size: 15px;
     font-weight: 600;
     position: relative;
+}
+
+@media(max-width: 768px) {
+    .widget-image-title {
+        font-size: 13px;
+    }
 }
